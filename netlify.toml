@@ -1,0 +1,7 @@
+#sample
+
+[build]
+command="cross-env NODE_ENV=production npm-run-all --serial bootstrap next:build"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
