@@ -56,14 +56,14 @@ Please click on the Depoly to Netlify button below. This will clone your repo to
 #Before you click on the deploy to Netlify button, you will need the following handy:
 
 - `Name of Repository` **Any name you like** 
-`FETCH_WITH` The way in which layout and dictionary data is fetched from Sitecore
-`GRAPH_QL_ENDPOINT` For Sitecore XM, this is typically optional.
-`GRAPH_QL_SERVICE_RETRIES` How many times should GraphQL Layout, Dictionary and ErrorPages services retry a fetch when endpoint rate limit is reached
-`JSS_EDITING_SECRET` To secure the Sitecore editor endpoint exposed by your Next.js app
-`NETLIFY_BUILD_DEBUG` To help debug Netlify build errors. 
-`SITECORE_API_KEY` Typically, the API key is # defined in `scjssconfig.json` (as `sitecore.apiKey`)
-`SITECORE_EDGE_CONTEXT_ID` Your unified Sitecore Edge Context Id.
-`SITECORE_SITE_NAME` Your Sitecore site name.
+- `FETCH_WITH` The way in which layout and dictionary data is fetched from Sitecore
+- `GRAPH_QL_ENDPOINT` For Sitecore XM, this is typically optional.
+- `GRAPH_QL_SERVICE_RETRIES` How many times should GraphQL Layout, Dictionary and ErrorPages services retry a fetch when endpoint rate limit is reached
+- JSS_EDITING_SECRET` To secure the Sitecore editor endpoint exposed by your Next.js app
+- `NETLIFY_BUILD_DEBUG` To help debug Netlify build errors. 
+- `SITECORE_API_KEY` Typically, the API key is # defined in `scjssconfig.json` (as `sitecore.apiKey`)
+- `SITECORE_EDGE_CONTEXT_ID` Your unified Sitecore Edge Context Id.
+- `SITECORE_SITE_NAME` Your Sitecore site name.
 
 The one-click deploy allows you to connect Netlify to your GitHub account to clone the `Sitecore Template` repository and deploy it automatically.
 
